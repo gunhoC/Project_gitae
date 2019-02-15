@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="750dp"
+    android:layout_height="match_parent"
     android:background="#484851"
     android:orientation="vertical"
     android:scrollbarFadeDuration="0"
@@ -11,9 +11,8 @@
 
     <FrameLayout
         android:id="@+id/frame"
-        android:layout_width="match_parent"
-        android:layout_height="750dp"
-        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="560dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +27,7 @@
         android:background="#303030"
         app:itemTextColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />

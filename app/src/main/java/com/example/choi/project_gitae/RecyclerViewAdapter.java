@@ -17,7 +17,6 @@ import java.util.List;
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private Activity activity;
     private List<Compo> compo;
-    private RecyclerViewAdapter thiss;
 
     public RecyclerViewAdapter(Activity activity, List<Compo> compo) {
         this.activity = activity;

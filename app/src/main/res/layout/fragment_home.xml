@@ -3,28 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="750dp"
-    tools:context=".home"
-    android:background="#484851">
+    android:layout_height="wrap_content"
+    android:background="#484851"
+    tools:context=".home">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="750dp"
+        android:layout_height="655dp"
         android:orientation="vertical">
-    <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="750dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="650dp">
 
 
             <ImageButton
                 android:id="@+id/btn_my_list"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="264dp"
-                android:layout_marginLeft="264dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
                 android:src="@drawable/icon1"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageButton
@@ -87,16 +88,20 @@
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/recyler"
-                android:layout_width="395dp"
-                android:layout_height="565dp"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:layout_marginBottom="52dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:layout_constraintVertical_bias="0.052" />
         </android.support.constraint.ConstraintLayout>
     </LinearLayout>
 </FrameLayout>

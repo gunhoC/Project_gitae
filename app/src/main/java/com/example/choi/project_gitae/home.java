@@ -50,7 +50,7 @@ public class home extends Fragment implements ServerResponse {
 
         HashMap<String, String> parameter = new HashMap<>();
         parameter.put("key", "7EF192D7C7D2600470252980FD233757C69B747264C145A0255E78ADB51650F9");
-        parameter.put("query", "확률과통계");
+        parameter.put("query", "python");
         parameter.put("output", "json");
         new Server().onDb("http://book.interpark.com/api/search.api", parameter, this);
 
