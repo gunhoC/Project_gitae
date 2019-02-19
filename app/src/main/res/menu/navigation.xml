@@ -19,6 +19,6 @@
     <item
         android:id="@+id/menu4"
         android:icon="@android:drawable/ic_menu_preferences"
-        android:title="마이메뉴 ㅋ" />
+        android:title="마이메뉴" />
 
 </menu>
