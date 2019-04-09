@@ -33,7 +33,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         private ImageView book_image;
         private TextView book_title;
         private TextView book_price;
-        private ViewHolder thiss;//프로젝트 기태
+        private ViewHolder thiss;//프로젝트 기태 건호조
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
